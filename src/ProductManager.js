@@ -1,6 +1,4 @@
-//const fs = require('fs').promises;
 import fs from 'fs/promises'
-
 
 class ProductManager{
     static lastId = 1;
@@ -65,15 +63,16 @@ class ProductManager{
             return [];
         }
     }
-
+    
     async getProductById( id ){
         try {
             const products = await this.getProducts();
             const product = products.find( product => product.id == id );
-            return product ? product : 'Not Found';
+            return product ? product : {};
 
         } catch (error) {
             console.error('Error', error);
+            return { error }
         }    
     }
 
