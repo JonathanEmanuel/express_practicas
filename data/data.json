@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Teclado 1",
+    "desciption": "Teclado",
+    "price": 2000,
+    "thumbnail": "images/teclado1.jpg",
+    "code": 10,
+    "stock": 100,
+    "id": 1
+  },
+  {
+    "title": "Teclado Mecanico",
+    "description": "Teclado Mecanico",
+    "price": 2000,
+    "thumbnail": "images/teclado2.jpg",
+    "code": 10,
+    "stock": 100,
+    "id": 2
+  },
+  {
+    "title": "Ratón Gamer",
+    "description": "Ratón para gaming",
+    "price": 1500,
+    "thumbnail": "images/raton_gamer.jpg",
+    "code": 20,
+    "stock": 75,
+    "id": 3
+  },
+  {
+    "title": "Monitor Full HD",
+    "description": "Monitor de alta resolución",
+    "price": 3000,
+    "thumbnail": "images/monitor_full_hd.jpg",
+    "code": 30,
+    "stock": 50,
+    "id": 4
+  },
+  {
+    "title": "Auriculares Bluetooth",
+    "description": "Auriculares inalámbricos",
+    "price": 1200,
+    "thumbnail": "images/auriculares_bluetooth.jpg",
+    "code": 40,
+    "stock": 80,
+    "id": 5
+  },
+  {
+    "title": "Impresora Multifunción",
+    "description": "Impresora para casa o oficina",
+    "price": 2500,
+    "thumbnail": "images/impresora_multifuncion.jpg",
+    "code": 50,
+    "stock": 60,
+    "id": 6
+  },
+  {
+    "title": "Mouse Óptico",
+    "description": "Mouse estándar",
+    "price": 800,
+    "thumbnail": "images/mouse_optico.jpg",
+    "code": 11,
+    "stock": 120,
+    "id": 7
+  },
+  {
+    "title": "Monitor 24 pulgadas",
+    "description": "Monitor HD",
+    "price": 3500,
+    "thumbnail": "images/monitor_24.jpg",
+    "code": 12,
+    "stock": 50,
+    "id": 8
+  },
+  {
+    "title": "Auriculares Inalámbricos",
+    "description": "Auriculares Bluetooth",
+    "price": 1500,
+    "thumbnail": "images/auriculares_inalambricos.jpg",
+    "code": 13,
+    "stock": 80,
+    "id": 9
+  },
+  {
+    "title": "Impresora Laser",
+    "description": "Impresora blanco y negro",
+    "price": 2800,
+    "thumbnail": "images/impresora_laser.jpg",
+    "code": 14,
+    "stock": 60,
+    "id": 10
+  }
+]

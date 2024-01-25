@@ -1,4 +1,7 @@
-const fs = require('fs').promises;
+//const fs = require('fs').promises;
+import fs from 'fs/promises'
+
+
 class ProductManager{
     static lastId = 1;
 
@@ -58,7 +61,7 @@ class ProductManager{
             const products = JSON.parse( resp );
             return products;
         } catch (error) {
-            console.error('Not Found File');
+            console.error('Not Found File', error);
             return [];
         }
     }
@@ -136,4 +139,4 @@ class ProductManager{
 
 console.log('Clase')
 
-export default ProductManager;
+export { ProductManager }
