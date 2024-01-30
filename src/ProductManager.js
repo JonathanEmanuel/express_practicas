@@ -13,13 +13,13 @@ class ProductManager{
     }
     // Valida que no exista previamente el código y verifica todos los campos obligatorios
     async addProduct( product ){
-        const {title, desciption, price, thumbnail, code, stock} = product;
+        const {title, description, price, thumbnail, code, stock} = product;
 
         if( !title )
             return 'Falta el campo title';
 
-        if( !desciption )
-            return 'Falta el campo desciption';
+        if( !description )
+            return 'Falta el campo description';
 
         if( !price )
             return 'Falta el campo price';
@@ -95,13 +95,13 @@ class ProductManager{
     }
 
     async updateProduct(id, product){
-        const { title, desciption, price, thumbnail, code, stock } = product;
+        const { title, description, price, thumbnail, code, stock } = product;
 
         if( !title )
             return 'Falta el campo title';
 
-        if( !desciption )
-            return 'Falta el campo desciption';
+        if( !description )
+            return 'Falta el campo description';
 
         if( !price )
             return 'Falta el campo price';
@@ -117,14 +117,14 @@ class ProductManager{
 
         this.products = await this.getProducts();
 
-        const index = this.products.findIndex( item => item.id === id  );
+        const index = this.products.findIndex( item => item.id == id  );
         if( index === -1 ){
             return 'Pruduct Not Found'
         }
 
         console.log(index, this.products[index])
         this.products[index].title = title;
-        this.products[index].desciption = desciption;
+        this.products[index].description = description;
         this.products[index].price = price;
         this.products[index].thumbnail = thumbnail;
         this.products[index].code = code;
